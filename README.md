@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 20 |
+| 68 | 20 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (25)
 - [implementation](#implementation) (28)
-- [math](#math) (23)
+- [math](#math) (24)
 - [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (10)
@@ -222,6 +222,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1/A%20-%20Theatre%20Square/solution.cpp) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/318/A%20-%20Even%20Odds/solution.cpp) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 547A | [Mike and Frog](https://codeforces.com/contest/547/problem/A) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/547/A%20-%20Mike%20and%20Frog/solution.cpp) |
