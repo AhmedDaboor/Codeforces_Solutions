@@ -6,18 +6,18 @@
 
 | Total Problems | Topics |
 |---|---|
-| 71 | 20 |
+| 72 | 20 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (4)
-- [binary search](#binary-search) (14)
+- [*special](#special) (5)
+- [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (12)
-- [constructive algorithms](#constructive-algorithms) (9)
-- [data structures](#data-structures) (2)
+- [constructive algorithms](#constructive-algorithms) (10)
+- [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (10)
 - [dsu](#dsu) (1)
@@ -29,7 +29,7 @@
 - [math](#math) (24)
 - [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (10)
+- [sortings](#sortings) (11)
 - [strings](#strings) (11)
 - [two pointers](#two-pointers) (6)
 
@@ -40,6 +40,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.cpp) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.cpp) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
@@ -51,6 +52,7 @@
 | 165B | [Burning Midnight Oil](https://codeforces.com/contest/165/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/165/B%20-%20Burning%20Midnight%20Oil/solution.cpp) |
 | 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 371C | [Hamburgers](https://codeforces.com/contest/371/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/371/C%20-%20Hamburgers/solution.cpp) |
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 670D1 | [Magic Powder - 1](https://codeforces.com/contest/670/problem/D1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/670/D1%20-%20Magic%20Powder%20-%201/solution.cpp) |
 | 670D2 | [Magic Powder - 2](https://codeforces.com/contest/670/problem/D2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/670/D2%20-%20Magic%20Powder%20-%202/solution.cpp) |
 | 676C | [Vasya and String](https://codeforces.com/contest/676/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/676/C%20-%20Vasya%20and%20String/solution.cpp) |
@@ -91,6 +93,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 | 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.cpp) |
@@ -104,6 +107,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.cpp) |
 
@@ -272,6 +276,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 807A | [Is it rated?](https://codeforces.com/contest/807/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/807/A%20-%20Is%20it%20rated%3F/solution.cpp) |
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
