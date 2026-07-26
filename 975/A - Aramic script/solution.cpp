@@ -20,19 +20,12 @@ ll lcm(int a, int b);
  
 void solve() {
 	int n; cin >> n;
-	set<char> ss;
 	set<str> st;
 	for(int i = 0; i < n ; i ++){
 		str s; cin >> s;
-		set<char> ss;
-		for(char&ch:s){
-			ss.insert(ch);
-		}
-		str timp = "";
-		for(auto&it:ss){
-			timp+=it;
-		}
-		st.insert(timp);
+		sort(all(s));
+		s.erase(unique(all(s)),s.end());
+		st.insert(s);
 	}
 	cout << st.size() <<endl;
 }
