@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 74 | 20 |
+| 75 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (5)
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (12)
@@ -44,6 +45,12 @@
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.cpp) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.cpp) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
 
 ### binary search
 
