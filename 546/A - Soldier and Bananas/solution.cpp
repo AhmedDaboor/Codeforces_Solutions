@@ -20,11 +20,7 @@ ll lcm(int a, int b);
  
 void solve() {
 	ll k, n, w; cin >> k >> n >> w;
-	ll totalCost = 0;
-	for(int i = 1; i <= w; i++){
-		totalCost += k*i;
-	}
-	cout << max(0LL,totalCost-n) << endl;
+	cout << max(0LL,(w*(w+1)/2)*k-n) << endl;
 }
  
  
