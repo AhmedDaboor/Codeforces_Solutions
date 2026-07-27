@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 79 | 21 |
+| 80 | 21 |
 
 ---
 
@@ -25,13 +25,13 @@
 - [games](#games) (2)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (28)
-- [implementation](#implementation) (31)
+- [greedy](#greedy) (29)
+- [implementation](#implementation) (32)
 - [math](#math) (25)
 - [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (11)
-- [strings](#strings) (14)
+- [sortings](#sortings) (12)
+- [strings](#strings) (15)
 - [two pointers](#two-pointers) (6)
 
 ---
@@ -181,6 +181,7 @@
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/231/A%20-%20Team/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
 | 547A | [Mike and Frog](https://codeforces.com/contest/547/problem/A) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/547/A%20-%20Mike%20and%20Frog/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
@@ -216,6 +217,7 @@
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 404A | [Valera and X](https://codeforces.com/contest/404/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/404/A%20-%20Valera%20and%20X/solution.cpp) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
@@ -293,6 +295,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 807A | [Is it rated?](https://codeforces.com/contest/807/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/807/A%20-%20Is%20it%20rated%3F/solution.cpp) |
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
@@ -313,6 +316,7 @@
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 208A | [Dubstep](https://codeforces.com/contest/208/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/208/A%20-%20Dubstep/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 501B | [Misha and Changing Handles](https://codeforces.com/contest/501/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/501/B%20-%20Misha%20and%20Changing%20Handles/solution.cpp) |
 | 676C | [Vasya and String](https://codeforces.com/contest/676/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/676/C%20-%20Vasya%20and%20String/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
