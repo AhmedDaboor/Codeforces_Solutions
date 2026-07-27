@@ -20,12 +20,7 @@ ll lcm(int a, int b);
  
 void solve() {
 	int a; cin >> a;
-	int ans = 0;
-	for(int i = 5; i >= 1; i--){
-		ans+= a/i;
-		a%=i;
-	}
-	cout << ans << endl;
+	cout << (a+4)/5;
 }
  
  
