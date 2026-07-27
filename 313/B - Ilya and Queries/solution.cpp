@@ -20,19 +20,14 @@ ll lcm(int a, int b);
  
 void solve() {
 	str s; cin >> s;
-	int n = s.size(); 
-	vi pref(n);
-	for(int i = 1; i < n; i++){
-		if(s[i-1] == s[i]) {
-			pref[i]+=pref[i-1] + 1;
-		}
-		else pref[i] = pref[i-1];
+	vi dp(s.size());
+	for(int i = 1; i < (int)s.size(); i++){
+		dp[i] = dp[i-1] + (s[i]==s[i-1]);
 	}
 	int q; cin >> q;
 	while(q--){
 		int l,r; cin >> l >> r;
-		l--,r--;
-		cout << pref[r] - pref[l]<< endl;
+		cout << dp[r-1] - dp[l-1]<< endl;
 	}
 }
  
