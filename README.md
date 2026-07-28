@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 88 | 21 |
+| 89 | 21 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (29)
-- [implementation](#implementation) (39)
+- [implementation](#implementation) (40)
 - [math](#math) (27)
 - [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
@@ -240,6 +240,7 @@
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 807A | [Is it rated?](https://codeforces.com/contest/807/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/807/A%20-%20Is%20it%20rated%3F/solution.cpp) |
 | 975A | [Aramic script](https://codeforces.com/contest/975/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/975/A%20-%20Aramic%20script/solution.cpp) |
+| 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 978C | [Letters](https://codeforces.com/contest/978/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/978/C%20-%20Letters/solution.cpp) |
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.cpp) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.cpp) |
