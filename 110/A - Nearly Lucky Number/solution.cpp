@@ -24,12 +24,8 @@ void solve() {
 		if(n%10 == 7 || n%10 == 4)m++;
 		n/=10;
 	}
-	if(m==0) {cout << "NO" << endl; return;}
-	while(m>0){
-		if(m%10 != 7 && m%10 != 4){cout << "NO" << endl; return;}
-		m/=10;
-	}
-	cout << "YES" << endl;
+	if(m==4||m==7) cout << "YES" << endl;
+	else cout << "NO" << endl;
 }
  
  
