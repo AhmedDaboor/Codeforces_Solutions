@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 100 | 21 |
+| 101 | 21 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [math](#math) (32)
 - [number theory](#number-theory) (8)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (13)
+- [sortings](#sortings) (14)
 - [strings](#strings) (21)
 - [two pointers](#two-pointers) (6)
 
@@ -334,6 +334,7 @@
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
+| 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.cpp) |
 | 2143B | [Discounts](https://codeforces.com/contest/2143/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2143/B%20-%20Discounts/solution.cpp) |
