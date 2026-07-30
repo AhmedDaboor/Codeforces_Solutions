@@ -22,15 +22,7 @@ void solve() {
 	int n; cin >> n;
 	vi a(n);
 	for(int&i:a) cin >> i;
-	for(int j = 0; j < n; j++){
-		int cnt = 0;
-		for(int i = 1; i < n - 1; i++){
-			if(a[i] > a[i-1] && a[i] > a[i+1]) swap(a[i],a[i+1]), cnt++;
-		}
-		if(!cnt) break;
-	}
-	if(is_sorted(all(a))) cout << "YES" << endl;
-	else cout << "NO" << endl;
+	cout << (a[0]==1 ? "YES" : "NO") << endl;
 }
  
 int main() {
