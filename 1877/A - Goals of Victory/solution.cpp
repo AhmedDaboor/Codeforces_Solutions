@@ -24,8 +24,7 @@ void solve() {
 	n--;
 	while(n--){
 		int x; cin >> x;
-		if(x > 0) ans-=x;
-		else ans-=x;
+		ans-=x;
 	}
 	cout << ans << endl;
 }
