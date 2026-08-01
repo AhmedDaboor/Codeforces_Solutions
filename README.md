@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 102 | 21 |
+| 103 | 21 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (18)
+- [brute force](#brute-force) (19)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (3)
@@ -27,7 +27,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (32)
 - [implementation](#implementation) (46)
-- [math](#math) (32)
+- [math](#math) (33)
 - [number theory](#number-theory) (8)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (14)
@@ -83,6 +83,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
 | 80A | [Panoramix's Prediction](https://codeforces.com/contest/80/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/80/A%20-%20Panoramix's%20Prediction/solution.cpp) |
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/122/A%20-%20Lucky%20Division/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/231/A%20-%20Team/solution.cpp) |
@@ -273,6 +274,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1/A%20-%20Theatre%20Square/solution.cpp) |
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
