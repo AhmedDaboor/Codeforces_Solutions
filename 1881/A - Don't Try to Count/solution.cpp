@@ -21,33 +21,10 @@ ll lcm(int a, int b);
 void solve() {
 	int n, m; cin >> n >> m;
 	str x, s; cin >> x >> s;
-	int ans = 0;
-	while(n < m){
-		x += x;
-		n = x.size();
-		ans++;
-	}
-	if(x == s) {cout << ans << endl; return;}
-	if(n==m) {
+	for(int i = 0; i < 10; i++){
+		if(x.find(s)!=string::npos) {cout << i << endl; return;}
 		x+=x;
-		n = x.size();
-		ans++;
 	}
-	auto check = [&](){
-		for(int i = 0; i < n; i++){
-			for(int j = i; j < n; j++){
-				if(x.substr(i,j-i+1) == s) return true;
-			}
-		}
-		return false;
-	};
-	if(check()) {cout << ans << endl; return;}
-	else {
-		x+=x;
-		n = x.size();
-		ans++;
-	}
-	if(check()) {cout << ans << endl; return;}
 	cout << -1 << endl;
 }
  
