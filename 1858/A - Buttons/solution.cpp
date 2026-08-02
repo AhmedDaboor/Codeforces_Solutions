@@ -24,7 +24,7 @@ inline void vecout(const vector<T> &a);
  
 void solve() {
 	ll a,b,c; cin >> a >> b >> c;
-	a+=(c+1)/2, b+=c/2;
+	if(c%2) b--;
 	cout << (a>b?"First":"Second") << endl;
 }
  
