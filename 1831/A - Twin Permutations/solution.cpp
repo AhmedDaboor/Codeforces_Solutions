@@ -24,13 +24,11 @@ inline void vecout(const vector<T> &a);
  
 void solve() {
 	int n; cin >> n;
-	vi b(n);
 	for(int i = 0; i < n; i++){
 		int a; cin >> a;
-		b[i] = n-a+1;
+		cout << n-a+1 << ' ';
 	}
-	for(int&i:b) cout << i << ' ';
-	cout << endl; 
+	cout << endl;
 }
  
 int main() {
