@@ -24,24 +24,19 @@ inline void vecout(const vector<T> &a);
  
 void solve() {
 	int n; cin >> n;
-	vi a(n);
-	int sum = 0, prod = 1, ans = 0;
-	for(int&i:a){
-		cin >> i;
-		sum += i;
-		prod*=i;
+	int a = 0,b = 0, ans = 0;
+	while(n--){
+		int c; cin >> c;
+		if(c==-1) a++;
+		else b++;
 	}
-	int i = 0;
-	while(i<n&&(sum<0||prod==-1)){
-		if(a[i] == -1){
-			ans++;
-			a[i] = 1;
-			sum += 2;
-			prod *=-1;
-		}
-		i++;
+	if(a%2) a--,b++,ans++;
+	while(a>b){
+		a -= 2;
+		b += 2;
+		ans+=2;
 	}
-	cout << ans << endl;
+	cout << ans << endl; 
 }
  
 int main() {
