@@ -1,0 +1,111 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using vi = vector<int>;
+using str = string;
+using i128 = __int128_t;
+#define AHMED ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)
+#define pb push_back
+#define all(a) a.begin(), a.end()
+#define rall(a) a.rbegin(), a.rend()
+#define endl '
+'
+const ll INF = 1e18;
+void print_int128(__int128 x);
+int msb(int x);
+int gcd(int a, int b);
+ll lcm(int a, int b);
+template <typename T>
+inline void vecin(vector<T> &a);
+template <typename T>
+inline void vecout(const vector<T> &a);
+//_________________________________________________________________________________________________________________________________________
+ 
+void solve() {
+	int n; cin >> n;
+	str s; cin >> s;
+	int pos = -1, mx = 0;
+	for(int i = 1 ; i < n - 1;i++){
+		if(s[i] != s[i-1] && s[i] != s[i+1]){
+			if(s[i-1] == s[i+1]){
+				char c = s[i-1];
+				int j = i-1, k = i+1;
+				while(j >= 0 && s[j] == c) j--;
+				while(k < n && s[k] == c) k++;
+				int cur = (k - 1) - (j + 1);
+				if(cur >= mx) {
+					mx = cur;
+					pos = i;
+				}
+			}
+			else{
+				if(mx == 0) {
+					mx = 1; pos = i;
+				}
+			}
+		}
+	}
+	if(pos!=-1) s.erase(pos,1);
+	s.erase(unique(all(s)), s.end());
+	cout << s.length() << endl;
+} 
+ 
+int main() {
+    AHMED;
+    // freopen("breedflip.in","r",stdin);
+    // freopen("breedflip.out","w",stdout);
+    int t = 1;
+	cin >> t;
+    while(t--) solve();
+    return 0;
+}
+ 
+ 
+//___________________________________________________________________________________________________________________________________________
+void print_int128(__int128 x) {
+    if (x == 0) { cout << "0"; return; }
+    if (x < 0) { cout << '-'; x = -x; }
+    string s;
+    while (x > 0) {
+        int digit = (int)(x % 10);
+        s.pb(char('0' + digit));
+        x /= 10;
+    } 
+    reverse(all(s));
+    cout << s << endl;
+}
+ 
+int msb(int x){
+    if(x==0) return -1;
+    return 31 - __builtin_clz(x);
+}
+ 
+int gcd(int a,  int b) {
+    while(b != 0) {
+        int temp =  b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+ 
+ll lcm(int a, int b) {
+    return (ll)(a/gcd(a, b))*b;
+}
+ 
+template <typename T>
+inline void vecin(vector<T> &a)
+{
+    for (auto &x : a)
+        cin >> x;
+}
+ 
+template <typename T>
+inline void vecout(const vector<T> &a)
+{
+    for (const auto &x : a)
+        cout << x << ' ';
+    cout << '
+';
+}
