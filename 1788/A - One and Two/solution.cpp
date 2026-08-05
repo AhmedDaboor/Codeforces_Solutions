@@ -25,17 +25,15 @@ inline void vecout(const vector<T> &a);
 void solve() {
 	int n; cin >> n;
 	vi a(n+1), p(n+1);
-	int tows = 0;
 	for(int i = 1; i <= n ;i++){
 		cin >> a[i];
 		p[i] += p[i-1] + (a[i]==2);
-		if(a[i]==2) tows++;
 	}
-	if(tows%2) {cout << -1 << endl; return;}
+	int ans = -1;
 	for(int i = 1; i <= n;i ++){
-		if(p[i] == tows/2) {cout << i << endl; return;}
+		if(p[i] == p[n]-p[i]) { ans = i; break;}
 	}
-	cout << -1 << endl; 
+	cout << ans << endl; 
 } 
  
 int main() {
