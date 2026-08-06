@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 132 | 22 |
+| 133 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (5)
-- [Uncategorized](#uncategorized) (8)
+- [Uncategorized](#uncategorized) (9)
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (24)
@@ -56,6 +56,7 @@
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
 | 2252A | [Boss Fight](https://codeforces.com/contest/2252/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/A%20-%20Boss%20Fight/solution.cpp) |
+| 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.cpp) |
