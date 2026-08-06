@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 133 | 22 |
+| 134 | 22 |
 
 ---
 
@@ -14,11 +14,11 @@
 
 - [*special](#special) (5)
 - [Uncategorized](#uncategorized) (9)
-- [binary search](#binary-search) (15)
+- [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (24)
+- [brute force](#brute-force) (25)
 - [constructive algorithms](#constructive-algorithms) (18)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (11)
 - [dsu](#dsu) (2)
@@ -26,12 +26,12 @@
 - [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (39)
+- [greedy](#greedy) (40)
 - [implementation](#implementation) (52)
 - [math](#math) (49)
 - [number theory](#number-theory) (11)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (15)
+- [sortings](#sortings) (16)
 - [strings](#strings) (22)
 - [two pointers](#two-pointers) (7)
 
@@ -80,6 +80,7 @@
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
 | 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.cpp) |
 | 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
+| 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 
 ### bitmasks
 
@@ -116,6 +117,7 @@
 | 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 | 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.cpp) |
+| 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 
 ### constructive algorithms
 
@@ -148,6 +150,7 @@
 | 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.cpp) |
+| 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 
 ### dfs and similar
 
@@ -251,6 +254,7 @@
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 
 ### implementation
 
@@ -404,6 +408,7 @@
 | 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.cpp) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 
 ### strings
 
