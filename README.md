@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 129 | 22 |
+| 130 | 22 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (24)
-- [constructive algorithms](#constructive-algorithms) (17)
+- [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (11)
@@ -28,10 +28,10 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (38)
 - [implementation](#implementation) (52)
-- [math](#math) (47)
+- [math](#math) (48)
 - [number theory](#number-theory) (11)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (14)
+- [sortings](#sortings) (15)
 - [strings](#strings) (22)
 - [two pointers](#two-pointers) (7)
 
@@ -122,6 +122,7 @@
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
@@ -325,6 +326,7 @@
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.cpp) |
 | 1490C | [Sum of Cubes](https://codeforces.com/contest/1490/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1490/C%20-%20Sum%20of%20Cubes/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
@@ -390,6 +392,7 @@
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.cpp) |
