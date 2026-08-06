@@ -24,25 +24,12 @@ inline void vecout(const vector<T> &a);
  
 void solve() {
 	ll n; cin >> n;
-	vi a(n+1), p(n+1);
-	for(int i = 1; i <= n; i++){
-		cin >> a[i];
-	}
-	sort(a.rbegin(), a.rend()-1);
-	int r = n;
-	ll cur = a[1];
-	for(int i = 2; i <= n && r > i; i++){
-		if(a[i] == cur) {swap(a[i],a[r]); r--;}
-		cur += a[i];
-	}
-	cur = a[0];
-	for(int i = 1; i <= n; i++){
-		if(a[i] == cur) {cout << "NO" << endl; return;}
-		cur+=a[i];
-	}
+	vi a(n);
+	vecin(a);
+	if(a[0] == a[n-1]){cout << "NO" << endl; return;}
 	cout << "YES" << endl;
-	for(int i = 1; i <= n; i++) cout << a[i] << ' ';
-	cout << endl;
+	reverse(a.begin()+1,a.end());
+	vecout(a);
 } 
  
 int main() {
