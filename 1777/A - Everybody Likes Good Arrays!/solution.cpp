@@ -26,13 +26,8 @@ void solve() {
 	ll n; cin >> n;
 	vi a(n);
 	vecin(a);
-	ll r = 0, ans = 0;
-	for(int i = 0; i < n;){
-		int w = a[i]%2;
-		while(r < n && w == a[r]%2) r++;
-		ans += r-i - 1;
-		i = r;
-	}
+	ll ans = 0;
+	for(int i = 1; i < n; i++) ans += (a[i]%2 == a[i-1]%2);
 	cout << ans << endl;
 } 
  
