@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 139 | 22 |
+| 140 | 22 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (27)
+- [brute force](#brute-force) (28)
 - [constructive algorithms](#constructive-algorithms) (19)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (3)
@@ -27,7 +27,7 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (40)
-- [implementation](#implementation) (53)
+- [implementation](#implementation) (54)
 - [math](#math) (50)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (1)
@@ -117,6 +117,7 @@
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
+| 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1904/A%20-%20Forked!/solution.cpp) |
 | 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.cpp) |
 | 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
@@ -312,6 +313,7 @@
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/1904/A%20-%20Forked!/solution.cpp) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
 | 2211A | [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/q-hBar/Codeforces_Solutions/blob/HEAD/2211/A%20-%20Antimedian%20Deletion/solution.cpp) |
