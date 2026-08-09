@@ -26,17 +26,11 @@ void solve() {
 	int xk,yk, xq,yq; cin >> xk >> yk >> xq >> yq;
 	map<pair<int,int>,int> f;
 	auto ki = [&](int x,int y){
+		f[{x-b,y-a}]++;
+		f[{x+b,y+a}]++;
+		f[{x-b,y+a}]++;
+		f[{x+b,y-a}]++;
 		if(a!=b){
-			f[{x-a,y-b}]++;
-			f[{x+a,y+b}]++;
-			f[{x-a,y+b}]++;
-			f[{x+a,y-b}]++;
-			f[{x-b,y-a}]++;
-			f[{x+b,y+a}]++;
-			f[{x-b,y+a}]++;
-			f[{x+b,y-a}]++;
-		}
-		else {
 			f[{x-a,y-b}]++;
 			f[{x+a,y+b}]++;
 			f[{x-a,y+b}]++;
