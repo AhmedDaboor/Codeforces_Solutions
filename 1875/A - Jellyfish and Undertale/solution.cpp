@@ -24,18 +24,11 @@ inline void vecout(const vector<T> &a);
 void solve() {
 	ll a,b,n; cin >> a >> b >> n;
 	vi x(n);
-	vecin(x);
-	sort(all(x));
-	ll ans = 0, res = b;
-	for(int i = 0; i<n;){
-		if(i < n && res == 1){
-			res = min(res+x[i],a);
-			i++;
-		}
-		ans+=res-1; 
-		res = 1;
+	vecin(x);;
+	for(int i = 0; i<n;i++){
+		b+=min(a-1,x[i]);
 	}
-	cout << ans + 1 << endl;
+	cout << b << endl;
 }
 int main() {
     AHMED;
