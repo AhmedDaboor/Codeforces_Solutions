@@ -28,12 +28,11 @@ void solve() {
 	vi a(n);
 	vecin(a);
 	sort(all(a));
-	ll ans = 0;
-	for(ll l = 0; l < n; l++){
-		ll r = l+1;
-		while(r < n && a[r]-a[r-1] <= k) r++;
-		ans = max(ans,r-l);
-		l = r-1;
+	ll ans = 1, cur = 1;
+	for(ll l = 1; l < n; l++){
+		if(a[l]-a[l-1]>k) cur = 0;
+		cur++;
+		ans = max(ans,cur);
 	}
 	cout << n - ans << endl;
 }
