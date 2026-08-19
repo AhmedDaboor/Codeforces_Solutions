@@ -1,65 +1,18 @@
-#include <bits/stdc++.h>
-using namespace std;
-using ll = long long;
-using vi = vector<int>;
-using str = string;
-using i128 = __int128_t;
-#define AHMED ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)
-#define pb push_back
-#define all(a) a.begin(), a.end()
-#define rall(a) a.rbegin(), a.rend()
-#define endl '
-'
-const ll INF = 1e18;
-void print_int128(__int128 x);
-int msb(int x);
-int gcd(int a, int b);
-ll lcm(int a, int b);
-//_________________________________________________________________________________________________________________________________________
- 
-void solve() {
-    cout << "1F601";
-} 
- 
-int main() {
-    AHMED;
-    // freopen("outofplace.in", "r", stdin);
-    // freopen("outofplace.out", "w", stdout);
-    int t = 1;
-    //cin >> t;
-    while(t--) solve();
-    return 0;
-}
- 
- 
-//___________________________________________________________________________________________________________________________________________
-void print_int128(__int128 x) {
-    if (x == 0) { cout << "0"; return; }
-    if (x < 0) { cout << '-'; x = -x; }
-    string s;
-    while (x > 0) {
-        int digit = (int)(x % 10);
-        s.pb(char('0' + digit));
-        x /= 10;
-    }
-    reverse(all(s));
-    cout << s << endl;
-}
- 
-int msb(int x){
-    if(x==0) return -1;
-    return 31 - __builtin_clz(x);
-}
- 
-int gcd(int a,  int b) {
-    while(b != 0) {
-        int temp =  b;
-        b = a % b;
-        a = temp;
-    }
-    return a;
-}
- 
-ll lcm(int a, int b) {
-    return (ll)(a/gcd(a, b))*b;
-}
+<h2><a href="https://codeforces.com/contest/2214/problem/B" target="_blank" rel="noopener noreferrer">2214B — Are You Smiling?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | Unrated |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2214B](https://codeforces.com/contest/2214/problem/B) |
+
+## Topics
+`*special` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Are You Smiling?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Show us a smile! 😁</p></div><div class="output-specification"><div class="section-title">Output</div><p>For a properly chosen $$$\mathrm{?}$$$, the following equation holds: $$$\mathrm{U} + \mathrm{?} = \mathrm{HAPPY}$$$.</p><p>Output $$$\mathrm{?}$$$, a string consisting of uppercase letters and numbers. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008448408219016686" id="id006882725116209437" class="input-output-copier">Copy</div></div><pre id="id008448408219016686">show us your smile!
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0036366813637596107" id="id009158943080017222" class="input-output-copier">Copy</div></div><pre id="id0036366813637596107">     </pre></div></div></div>
