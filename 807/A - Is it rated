@@ -1,17 +1,74 @@
-<h2><a href="https://codeforces.com/contest/807/problem/A" target="_blank" rel="noopener noreferrer">807A — Is it rated?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 900 |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 807A](https://codeforces.com/contest/807/problem/A) |
-
-## Topics
-`implementation` `sortings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Is it rated?</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-underline">Is it rated?</span></p><p>Here it is. The Ultimate Question of Competitive Programming, Codeforces, and Everything. And you are here to answer it.</p><p>Another Codeforces round has been conducted. No two participants have the same number of points. For each participant, from the top to the bottom of the standings, their rating before and after the round is known.</p><p>It's known that if at least one participant's rating has changed, then the round was rated for sure.</p><p>It's also known that if the round was rated and a participant with lower rating took a better place in the standings than a participant with higher rating, then at least one round participant's rating has changed.</p><p>In this problem, you should not make any other assumptions about the rating system.</p><p>Determine if the current round is rated, unrated, or it's impossible to determine whether it is rated of not.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 1000</span>) — the number of round participants.</p><p>Each of the next <span class="tex-span"><i>n</i></span> lines contains two integers <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> and <span class="tex-span"><i>b</i><sub class="lower-index"><i>i</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub>, <i>b</i><sub class="lower-index"><i>i</i></sub> ≤ 4126</span>) — the rating of the <span class="tex-span"><i>i</i></span>-th participant before and after the round, respectively. The participants are listed in order from the top to the bottom of the standings.</p></div><div class="output-specification"><div class="section-title">Output</div><p>If the round is rated for sure, print "<span class="tex-font-style-tt">rated</span>". If the round is unrated for sure, print "<span class="tex-font-style-tt">unrated</span>". If it's impossible to determine whether the round is rated or not, print "<span class="tex-font-style-tt">maybe</span>".</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005999203252299716" id="id008170747429919356" class="input-output-copier">Copy</div></div><pre id="id005999203252299716">6<br>3060 3060<br>2194 2194<br>2876 2903<br>2624 2624<br>3007 2991<br>2884 2884<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006567203694452108" id="id005495608189790511" class="input-output-copier">Copy</div></div><pre id="id006567203694452108">rated<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0017186996839567448" id="id0040219607465084584" class="input-output-copier">Copy</div></div><pre id="id0017186996839567448">4<br>1500 1500<br>1300 1300<br>1200 1200<br>1400 1400<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009538208828340075" id="id005111381809026257" class="input-output-copier">Copy</div></div><pre id="id009538208828340075">unrated<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0010812880986036177" id="id006800718529329379" class="input-output-copier">Copy</div></div><pre id="id0010812880986036177">5<br>3123 3123<br>2777 2777<br>2246 2246<br>2246 2246<br>1699 1699<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008727651245162328" id="id00011595765026230165" class="input-output-copier">Copy</div></div><pre id="id008727651245162328">maybe<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, the ratings of the participants in the third and fifth places have changed, therefore, the round was rated.</p><p>In the second example, no one's rating has changed, but the participant in the second place has lower rating than the participant in the fourth place. Therefore, if the round was rated, someone's rating would've changed for sure.</p><p>In the third example, no one's rating has changed, and the participants took places in non-increasing order of their rating. Therefore, it's impossible to determine whether the round is rated or not.</p></div>
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using vi = vector<int>;
+using str = string;
+using i128 = __int128_t;
+#define AHMED ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)
+#define pb push_back
+#define all(a) a.begin(), a.end()
+#define rall(a) a.rbegin(), a.rend()
+#define endl '
+'
+const ll INF = 1e18;
+void print_int128(__int128 x);
+int msb(int x);
+int gcd(int a, int b);
+ll lcm(int a, int b);
+//_________________________________________________________________________________________________________________________________________
+ 
+void solve() {
+	int n; cin >> n;
+	vector<pair<int,int>> a(n);
+	for(int i = 0; i < n; i++){
+		cin >> a[i].first >> a[i].second;
+		if(a[i].first != a[i].second) {cout << "rated" << endl; return;}
+	}
+	for(int i = 0; i < n-1; i++){
+		if(a[i]. first < a[i+1].first){cout << "unrated" << endl; return;} 
+	}
+	cout << "maybe" << endl;
+}
+ 
+ 
+int main() {
+    AHMED;
+    int t = 1;
+	//cin >> t;
+    while(t--) solve();
+    return 0;
+}
+ 
+ 
+//___________________________________________________________________________________________________________________________________________
+void print_int128(__int128 x) {
+    if (x == 0) { cout << "0"; return; }
+    if (x < 0) { cout << '-'; x = -x; }
+    string s;
+    while (x > 0) {
+        int digit = (int)(x % 10);
+        s.pb(char('0' + digit));
+        x /= 10;
+    }
+    reverse(all(s));
+    cout << s << endl;
+}
+ 
+int msb(int x){
+    if(x==0) return -1;
+    return 31 - __builtin_clz(x);
+}
+ 
+int gcd(int a,  int b) {
+    while(b != 0) {
+        int temp =  b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+ 
+ll lcm(int a, int b) {
+    return (ll)(a/gcd(a, b))*b;
+}
