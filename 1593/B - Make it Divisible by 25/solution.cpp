@@ -25,23 +25,20 @@ inline void print(const vector<T> &a);
 //_________________________________________________________________________________________________________________________________________ 
 void solve() {
 	str s; cin >> s;
-    int m = s.size();
-	vector<int> dp(25, -1);
-    for (char c : s) {
-        int d = c - '0';
-        vector<int> next_dp = dp;
-		if (d > 0) {
-            next_dp[d % 25] = max(next_dp[d % 25], 1);
-        }
-        for (int r = 0; r < 25; r++) {
-            if (dp[r] != -1) {
-                int next_rem = (r * 10 + d) % 25;
-                next_dp[next_rem] = max(next_dp[next_rem], dp[r] + 1);
-            }
-        }
-        dp = next_dp;
+    int n = s.size()-1;
+    int ans = 20;
+    for(int i = n; i >= 0; i--){
+    	int cnt = n - i;
+    	for(int j = i-1;j>=0;j--){
+    		if(s[j] == '0' && s[i] == '0') break;
+    		if(s[j] == '7' && s[i] == '5') break;
+    		if(s[j] == '5' && s[i] == '0') break;
+    		if(s[j] == '2' && s[i] == '5') break;
+    		cnt++;
+    	}
+    	ans = min(ans,cnt);
     }
-    cout << m - dp[0] << endl;
+    cout << ans << endl;
 }
 int main() {  
     AHMED;
