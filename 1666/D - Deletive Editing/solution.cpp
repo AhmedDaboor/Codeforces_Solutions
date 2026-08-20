@@ -25,28 +25,16 @@ inline void print(const vector<T> &a);
 //_________________________________________________________________________________________________________________________________________ 
 void solve() {
 	str s, t; cin >> s >>  t;
-	vi fs(26), ft(26), d(26);
-	for(char&c:s) fs[c-'A']++;
-	for(char&c:t) ft[c-'A']++;
-	for(int i = 0; i < 26; i ++){
-		d[i] = fs[i] - ft[i];
-		if(d[i]<0){cout << "NO" << endl; return;}
+	vi d(256);
+	for(char&c:s) d[c]++;
+	for(char&c:t) d[c]--;
+	str res = "";
+	for(int i = 0; i < int(s.size()); i++){
+		if(d[s[i]] < 0) {cout << "NO" << endl; return;}
+		if(d[s[i]]==0) res.pb(s[i]);
+		else d[s[i]]--;
 	}
-	for(int i = 0; i < 26; i++){
-		if(d[i]==0) continue;
-		int n = int(s.size());
-		vi pos;
-		for(int j = 0; j < n && d[i]; j++){
-			if(s[j] == int('A' + i)){
-				pos.pb(j);
-				d[i]--;
-			}
-		}
-		for(int j = pos.size()-1; j >= 0; j--){
-			s.erase(pos[j],1);
-		}
-	}
-	if(s==t) cout << "YES" << endl;
+	if(res==t) cout << "YES" << endl;
 	else cout << "NO" << endl;
 }
 int main() {  
