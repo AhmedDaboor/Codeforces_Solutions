@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 167 | 25 |
+| 168 | 25 |
 
 ---
 
@@ -34,7 +34,7 @@
 - [number theory](#number-theory) (16)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (21)
-- [strings](#strings) (26)
+- [strings](#strings) (27)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (9)
 
@@ -521,6 +521,7 @@
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 975A | [Aramic script](https://codeforces.com/contest/975/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/975/A%20-%20Aramic%20script/solution.cpp) |
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.cpp) |
+| 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1606/A%20-%20AB%20Balance/solution.cpp) |
 | 1660C | [Get an Even String](https://codeforces.com/contest/1660/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1660/C%20-%20Get%20an%20Even%20String/solution.cpp) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
 | 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
