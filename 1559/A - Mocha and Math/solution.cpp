@@ -25,17 +25,12 @@ inline void print(const vector<T> &a);
 //_________________________________________________________________________________________________________________________________________ 
 void solve() {
 	ll n; cin >> n;
-	vi a(n);
-	ll mn = INF;
-	for(ll&i:a){
-		cin >> i;
-		mn = min(mn,i);
+	ll ans; cin >> ans;
+	for(int i = 1; i < n; i++){
+		ll a; cin >> a;
+		ans&=a;
 	}
-	for(int c = 0; c < 2; c++)
-		for(ll&i:a){
-			mn = min(mn,(mn&i));
-		}
-	cout << mn << endl;
+	cout << ans << endl;
 }
 int main() {  
     AHMED;
