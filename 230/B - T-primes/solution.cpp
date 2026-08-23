@@ -22,22 +22,28 @@ inline void vecin(vector<T> &a);
 template <typename T>
 inline void print(const vector<T> &a);
 //_________________________________________________________________________________________________________________________________________ 
- 
+const ll N = 1e6+7;
+vi isPrime(N+1,1), primes;
+void sieve(){
+	isPrime[0] = isPrime[1] = 0;
+	for(ll i = 2; i < N; i++){
+		if(isPrime[i]) primes.pb(i);
+		for(auto&it:primes){
+			if(it*i > N) break;
+			isPrime[it*i] = 0;
+			if(i%it==0) break;
+		}
+	}
+}
 void solve() {
     ll n; cin >> n;
     ll s = sqrtl(n);
-    if(s*s==n){
-    	bool ok = true;
-    	for(ll i = 2; i*i <= s; i++){
-    		if(s%i==0) {ok = false; break;}
-    	}
-    	if(ok&&s!=1) {cout << "YES" << endl; return;}
-    	else {cout << "NO" << endl;return;}
-    }
-	cout << "NO" << endl;
+    if(s*s==n&&isPrime[s]) cout << "YES" << endl;
+	else cout << "NO" << endl;
 } 
 int main() {  
     AHMED;
+    sieve();
     int t = 1; cin >> t;
     while(t--) solve();
     return 0;
