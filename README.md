@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 186 | 25 |
+| 187 | 25 |
 
 ---
 
@@ -27,13 +27,13 @@
 - [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (64)
+- [greedy](#greedy) (65)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (65)
 - [math](#math) (79)
 - [number theory](#number-theory) (25)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (21)
+- [sortings](#sortings) (22)
 - [strings](#strings) (28)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (9)
@@ -291,6 +291,7 @@
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.cpp) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
+| 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.cpp) |
 | 1878A | [How Much Does Daytona Cost?](https://codeforces.com/contest/1878/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1878/A%20-%20How%20Much%20Does%20Daytona%20Cost%3F/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
@@ -530,6 +531,7 @@
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
+| 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.cpp) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.cpp) |
