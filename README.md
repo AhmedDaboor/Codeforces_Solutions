@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 191 | 25 |
+| 192 | 25 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (5)
 - [Uncategorized](#uncategorized) (1)
-- [binary search](#binary-search) (20)
+- [binary search](#binary-search) (21)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (37)
 - [combinatorics](#combinatorics) (2)
@@ -27,13 +27,13 @@
 - [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (66)
+- [greedy](#greedy) (67)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (66)
 - [math](#math) (82)
 - [number theory](#number-theory) (26)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (23)
+- [sortings](#sortings) (24)
 - [strings](#strings) (28)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (10)
@@ -74,6 +74,7 @@
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1490C | [Sum of Cubes](https://codeforces.com/contest/1490/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1490/C%20-%20Sum%20of%20Cubes/solution.cpp) |
+| 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
 | 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.cpp) |
@@ -285,6 +286,7 @@
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.cpp) |
+| 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.cpp) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.cpp) |
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
@@ -541,6 +543,7 @@
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.cpp) |
+| 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AhmedDaboor/Codeforces_Solutions/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.cpp) |
